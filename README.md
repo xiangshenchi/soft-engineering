@@ -2,10 +2,10 @@
 <h3 align="center">软件工程课程作业仓库<h4>
 Name: XiangShenChi
 <br>
-Owner: 202210120510
+Number: 202210120510
 <hr>
 
-### 作业1
+### 实验一：构建软件测试实验环境
 #### 实验要求
 1.学习使用 JUnit5 编写测试用例，参考Junit5 五分钟教程或 使用 Pytest 编写测试用例，参考PyTest学习指南
 <br>
@@ -16,3 +16,8 @@ Owner: 202210120510
 4.按照以下实验要求，使用 Java 语言实现判断三角形类型程序Triangle，并采用Junit5 或PyTest 编写完成三角形类型程序测试用例，并提交到代码仓库
 <br>
 5.按照实验报告模板 编写实验报告，以“学号-姓名-软件测试实验一”命名，提交到雨课堂“软件测试实验一”
+
+
+<hr style="border: 2px solid black;">
+
+**<p align="center">Copyright© 2024 · Shawn</p>**
