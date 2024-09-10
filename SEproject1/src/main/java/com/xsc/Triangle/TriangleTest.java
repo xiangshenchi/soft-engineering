@@ -22,7 +22,7 @@
 //}
 
 
-package org.example;
+package com.xsc.Triangle;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

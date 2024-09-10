@@ -1,4 +1,4 @@
-package org.example;
+package com.xsc.Triangle;
 
 public class Triangle {
     public String classify(int a, int b, int c) {
