@@ -1,14 +1,13 @@
 # Soft-Engineering
-<h3 align="center">软件工程课程作业仓库<h4>
-Name: XiangShenChi
+<h3 align="center">《软件工程》课程作业仓库<h4>
+Student_name: XiangShenChi
 <br>
-Number: 202210120510
+Student_num: 202210120510
 <hr>
 
-### 实验一：个人编程技能和git操作
+#### 实验一：个人编程技能和git操作
 
-1.git 基本操作
-<br>
+##### 1.git 基本操作
 要求每个学生开始管理自己的源代码：
 每个同学申请一个 GitHub 的账号，或者 码云 账号，存放源程序和其他文档。
 安装、配置git。基础教程参考git 5分钟教程
@@ -18,9 +17,9 @@ Number: 202210120510
     git add .
     git commit -m "提交说明"
     git push origin master
-<br>
-2.编程基本功练习
-<br>
+
+
+##### 2.编程基本功练习
 （1）编程实现Helloworld
 <br>
 全部用命令行工具和notepad编辑器，不用Eclipse 等集成编辑环境，每人手工创建并编译一个Java的命令行程序：“Hello World”。
@@ -36,4 +35,4 @@ Number: 202210120510
 
 <hr style="border: 2px solid black;">
 
-**<p align="center">Copyright© 2024 · Shawn</p>**
+**<p align="center">Copyright© 2024 · CTGU · Shawn</p>**
