@@ -60,6 +60,55 @@ Student_num: 202210120510
 （7）支付<br>
 （8）库存<br>
 （9）添加商品<br>
+<hr>
+
+#### 实验
+
+##### 1.实验目的
+1. 掌握 UML 建模工具 Rational Rose 软件的安装和基本操作；<br>
+2. 掌握面向对象设计模型，包括类和类间的关系建模<br>
+3. 能够构建类图静态模型<br>
+
+##### 2.实验要求
+1. 准确规范使用 UML 模型，包括类名，属性，方法，关系和多重性，角色，可见性，自学参考UML基础指南
+2. 独立完成，禁止抄袭<br>
+3. 使用 Rational Rose 创建模型；参考Rose使用技巧指南和Rose建模指南<br>
+4. 选择自己熟悉的语言实现之，代码提交到自己的gitee仓库，代码地址写到实验报告中<br>
+5. 按照实验报告模板，编写实验报告，复制创建的模型粘贴到 Word 报告中<br>
+6. 文件以“学号-姓名-软件工程实验三.doc”的方式命名，提交到长江雨课堂：软件工程实验三<br>
+附：软件下载<br>
+（1） Rational Rose 2007企业版； 提取码：pa38<br>
+（2） Visual Paradigm CE 16 提取码：bnd9<br>
+（3） Rational Rose 2003 企业版 提取码：vjyd<br>
+注：如果以上都安装不了，发生概率非常低。可以使用Processon或者亿图图示<br>
+
+##### 3.实验内容
+A1-1<br>
+用Thoroughbred类对优良品质的马进行建模。它有3个属性：mother，father，birthyear，还有3个操作：getCurrentAge()、getFather()和getMother。每个属性都有名字、类型和可见性级别。类型和可见性都是可选的。类型放在名字后面，并用冒号进行分隔。可见性由前面的-、#、或+指定，分别代表私有、受保护、包或公有可见性。在实验中，所有属性都是私有的，由前面的减号（-）指出。可以用可见性级别、带名字和类型的参数以及返回类型来表示每个操作。<br>
+
+A1-2<br>
+College有一个包含Building对象的聚合，这表示建筑构成了学院。学院也有一个包含课程的组合。Course类也受到约束性注释（注释Course一定在某个Building中进行）。<br>
+
+A1-3<br>
+一个学院School由1到多个系Department构成；<br>
+每个系至少拥有1位指导教师Instructor，并提供至少1门课程Subject；<br>
+每个指导教师至少属于某个系且教授1-3门课程；<br>
+学院拥有0到多名学生，学生Student参加1-5门课程学习。<br>
+请使用UML描述以上各类间的关系。<br>
+
+A1-4<br>
+简化的网上购物系统需求说明：<br>
+客户（Customer）具有四个属性：姓名(name)，联系电话(contact)，邮寄地址(deliveryAddress)和是否激活状态(active)，<br>
+订单（Order）具有两个属性：创建日期（createDate），订单状态(status)包括CREATE、PAID、SHIPPING、DELIVERED、CANCEL五种状态；<br>
+订单详情（OrderDetail）具有一个属性：数量（quantity），并具有calculateSubTotal（）、calculateWeight（）方法；<br>
+商品项（Product）具有名称（title）、重量(weight)和描述（description），并具有getPriceForQuantity()方法和getWeight（）方法；
+支付方式（Payment），具有金额（amount）属性；<br>
+支付方式支持以下五种支付方式：信用卡Credit，具有卡号（number）、类型（type）和过期日期（expireDate）；<br>
+现金（Cash），具有支付金额（cashTendered）属性；<br>
+在线转账（WireTransfer），具有银行ID：bankID，银行名称bankName属性，<br>
+支付宝（AliPay）具有卡号number属性；<br>
+微信支付（WeixinPay），具有卡号属性。<br>
+请根据以上简化的网上购物系统的关键类描述说明，创建类模型，并定义类之间的关系包括多重性（Multiplicity）。<br>
 
 <hr style="border: 2px solid black;">
 
