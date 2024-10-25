@@ -1,0 +1,165 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAGSrmo11GIscfY=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model1",
+			"ownedElements": [
+				{
+					"_type": "UMLUseCaseDiagram",
+					"_id": "AAAAAAGSrmo11GIt8is=",
+					"_parent": {
+						"$ref": "AAAAAAGSrmo11GIscfY="
+					},
+					"name": "UseCaseDiagram1"
+				},
+				{
+					"_type": "UMLStateMachine",
+					"_id": "AAAAAAGSrmsxFWI5Vlw=",
+					"_parent": {
+						"$ref": "AAAAAAGSrmo11GIscfY="
+					},
+					"name": "StateMachine1",
+					"ownedElements": [
+						{
+							"_type": "UMLStatechartDiagram",
+							"_id": "AAAAAAGSrmsxFWI7AkY=",
+							"_parent": {
+								"$ref": "AAAAAAGSrmsxFWI5Vlw="
+							},
+							"name": "B1",
+							"ownedViews": [
+								{
+									"_type": "UMLPseudostateView",
+									"_id": "AAAAAAGSrmtlGWJ8xz0=",
+									"_parent": {
+										"$ref": "AAAAAAGSrmsxFWI7AkY="
+									},
+									"model": {
+										"$ref": "AAAAAAGSrmtlGWJ7OGY="
+									},
+									"subViews": [
+										{
+											"_type": "NodeLabelView",
+											"_id": "AAAAAAGSrmtlGWJ9wXo=",
+											"_parent": {
+												"$ref": "AAAAAAGSrmtlGWJ8xz0="
+											},
+											"model": {
+												"$ref": "AAAAAAGSrmtlGWJ7OGY="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 51,
+											"top": 68.5,
+											"height": 13,
+											"alpha": 2.356194490192345,
+											"distance": 20
+										},
+										{
+											"_type": "NodeLabelView",
+											"_id": "AAAAAAGSrmtlGWJ+Nc8=",
+											"_parent": {
+												"$ref": "AAAAAAGSrmtlGWJ8xz0="
+											},
+											"model": {
+												"$ref": "AAAAAAGSrmtlGWJ7OGY="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 41,
+											"top": 58.5,
+											"height": 13,
+											"alpha": 2.356194490192345,
+											"distance": 35
+										},
+										{
+											"_type": "NodeLabelView",
+											"_id": "AAAAAAGSrmtlGWJ/zeg=",
+											"_parent": {
+												"$ref": "AAAAAAGSrmtlGWJ8xz0="
+											},
+											"model": {
+												"$ref": "AAAAAAGSrmtlGWJ7OGY="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 51,
+											"top": 97.5,
+											"height": 13,
+											"alpha": -2.356194490192345,
+											"distance": 20
+										}
+									],
+									"font": "Arial;13;0",
+									"containerChangeable": true,
+									"left": 56,
+									"top": 80,
+									"width": 20,
+									"height": 20,
+									"nameLabel": {
+										"$ref": "AAAAAAGSrmtlGWJ9wXo="
+									},
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGSrmtlGWJ+Nc8="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGSrmtlGWJ/zeg="
+									}
+								},
+								{
+									"_type": "UMLFinalStateView",
+									"_id": "AAAAAAGSrmt5aWKN0Z4=",
+									"_parent": {
+										"$ref": "AAAAAAGSrmsxFWI7AkY="
+									},
+									"model": {
+										"$ref": "AAAAAAGSrmt5aWKMwaw="
+									},
+									"font": "Arial;13;0",
+									"containerChangeable": true,
+									"left": 56,
+									"top": 792,
+									"width": 26,
+									"height": 26
+								}
+							]
+						}
+					],
+					"regions": [
+						{
+							"_type": "UMLRegion",
+							"_id": "AAAAAAGSrmsxFWI6Vj8=",
+							"_parent": {
+								"$ref": "AAAAAAGSrmsxFWI5Vlw="
+							},
+							"vertices": [
+								{
+									"_type": "UMLPseudostate",
+									"_id": "AAAAAAGSrmtlGWJ7OGY=",
+									"_parent": {
+										"$ref": "AAAAAAGSrmsxFWI6Vj8="
+									},
+									"kind": "initial"
+								},
+								{
+									"_type": "UMLFinalState",
+									"_id": "AAAAAAGSrmt5aWKMwaw=",
+									"_parent": {
+										"$ref": "AAAAAAGSrmsxFWI6Vj8="
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
