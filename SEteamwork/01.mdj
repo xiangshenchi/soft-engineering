@@ -1,0 +1,234 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "FCFlowchart",
+			"_id": "AAAAAAGSwqvoIpZCMcg=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Flowchart1",
+			"ownedElements": [
+				{
+					"_type": "FCFlowchartDiagram",
+					"_id": "AAAAAAGSwqvoIpZD4nE=",
+					"_parent": {
+						"$ref": "AAAAAAGSwqvoIpZCMcg="
+					},
+					"name": "FlowchartDiagram1",
+					"ownedViews": [
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGSwq3dkpZqV9o=",
+							"_parent": {
+								"$ref": "AAAAAAGSwqvoIpZD4nE="
+							},
+							"model": {
+								"$ref": "AAAAAAGSwq3dkpZoDzw="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGSwq3dkpZrKx8=",
+									"_parent": {
+										"$ref": "AAAAAAGSwq3dkpZqV9o="
+									},
+									"font": "Arial;13;0",
+									"left": 187,
+									"top": 227,
+									"width": 52,
+									"height": 13,
+									"text": "商品管理",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 177,
+							"top": 217,
+							"width": 72,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAGSwq3dkpZrKx8="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGSwqvuwJZJrmo=",
+							"_parent": {
+								"$ref": "AAAAAAGSwqvoIpZD4nE="
+							},
+							"model": {
+								"$ref": "AAAAAAGSwqvuwJZHsa4="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGSwqvuwJZKdF4=",
+									"_parent": {
+										"$ref": "AAAAAAGSwqvuwJZJrmo="
+									},
+									"font": "Arial;13;0",
+									"left": 426,
+									"top": 58,
+									"width": 104,
+									"height": 13,
+									"text": "小型超市管理系统",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 416,
+							"top": 48,
+							"width": 124,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAGSwqvuwJZKdF4="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGSwq1BkZZTNfI=",
+							"_parent": {
+								"$ref": "AAAAAAGSwqvoIpZD4nE="
+							},
+							"model": {
+								"$ref": "AAAAAAGSwq1BkJZRTp0="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGSwq1BkZZUnNk=",
+									"_parent": {
+										"$ref": "AAAAAAGSwq1BkZZTNfI="
+									},
+									"font": "Arial;13;0",
+									"left": 434,
+									"top": 138,
+									"width": 91,
+									"height": 13,
+									"text": "管理员（店主）",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 424,
+							"top": 128,
+							"width": 111,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAGSwq1BkZZUnNk="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGSwq1uFpZd7Hw=",
+							"_parent": {
+								"$ref": "AAAAAAGSwqvoIpZD4nE="
+							},
+							"model": {
+								"$ref": "AAAAAAGSwq1uFZZbNTw="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGSwq1uFpZe9tA=",
+									"_parent": {
+										"$ref": "AAAAAAGSwq1uFpZd7Hw="
+									},
+									"model": {
+										"$ref": "AAAAAAGSwq1uFZZbNTw="
+									},
+									"font": "Arial;13;0",
+									"left": 479,
+									"top": 97,
+									"width": 26,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGSwq1uFpZd7Hw="
+									},
+									"edgePosition": 1,
+									"text": "登录"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGSwq1BkZZTNfI="
+							},
+							"tail": {
+								"$ref": "AAAAAAGSwqvuwJZJrmo="
+							},
+							"lineStyle": 2,
+							"points": "478:81;478:128",
+							"nameLabel": {
+								"$ref": "AAAAAAGSwq1uFpZe9tA="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGSwqvuwJZHsa4=",
+					"_parent": {
+						"$ref": "AAAAAAGSwqvoIpZCMcg="
+					},
+					"name": "小型超市管理系统",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGSwq1uFZZbNTw=",
+							"_parent": {
+								"$ref": "AAAAAAGSwqvuwJZHsa4="
+							},
+							"name": "登录",
+							"source": {
+								"$ref": "AAAAAAGSwqvuwJZHsa4="
+							},
+							"target": {
+								"$ref": "AAAAAAGSwq1BkJZRTp0="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGSwq1BkJZRTp0=",
+					"_parent": {
+						"$ref": "AAAAAAGSwqvoIpZCMcg="
+					},
+					"name": "管理员（店主）"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGSwq3dkpZoDzw=",
+					"_parent": {
+						"$ref": "AAAAAAGSwqvoIpZCMcg="
+					},
+					"name": "商品管理"
+				}
+			]
+		}
+	]
+}
